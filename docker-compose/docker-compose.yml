@@ -8,6 +8,7 @@ services:
     pid: "host"
     privileged: true
     network_mode: "host"
+    mem_limit: 1g
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
       - "/run/user/1000/podman/podman.sock:/run/user/1000/podman/podman.sock:ro"
