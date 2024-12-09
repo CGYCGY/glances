@@ -1,6 +1,6 @@
 services:
   glances:
-    image: nicolargo/glances:latest
+    image: nicolargo/glances:latest-full
     restart: always
     ports:
       - 61208:61208
