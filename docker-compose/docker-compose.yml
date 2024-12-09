@@ -1,8 +1,6 @@
 services:
   glances:
-    build:
-      context: ./
-      dockerfile: Dockerfile
+    image: nicolargo/glances:latest
     restart: always
     pid: "host"
     privileged: true
